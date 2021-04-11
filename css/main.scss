@@ -9,9 +9,33 @@
     box-sizing: border-box;
 }
 
+// Main Section
+#main-section {
+  min-height: 500px;
+  background-color: silver;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0px;
+  
+  img {
+    width: 200px;
+    border-radius: 50%;
+    border: solid 1px grey;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+}
 
 // Footer Styling
 footer {
+  min-height: 100px;
+  margin-bottom: 20px;
   p {
     font-size: 15px;
   }
@@ -48,7 +72,7 @@ footer {
     .col-s-12 {width: 100%;}
   }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     // Anything beyond 768px
     /* For desktop: */
     .col-1 {width: 8.33%;}

@@ -26,6 +26,40 @@ h3 {
           box-sizing: border-box;
 }
 
+#main-section {
+  min-height: 500px;
+  background-color: silver;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px 0px;
+}
+
+.container img {
+  width: 200px;
+  border-radius: 50%;
+  border: solid 1px grey;
+}
+
+.container h1 {
+  font-size: 20px;
+}
+
+footer {
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
 footer p {
   font-size: 15px;
 }
@@ -89,7 +123,7 @@ footer img {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   /* For desktop: */
   .col-1 {
     width: 8.33%;
