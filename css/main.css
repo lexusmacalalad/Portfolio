@@ -26,6 +26,33 @@ h3 {
           box-sizing: border-box;
 }
 
+nav img {
+  width: 35px;
+}
+
+nav img .dropdown {
+  display: inline-block;
+}
+
+nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+nav .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
 #main-section {
   min-height: 500px;
   background-color: silver;
@@ -42,7 +69,6 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 100px 0px;
 }
 
 .container img {
