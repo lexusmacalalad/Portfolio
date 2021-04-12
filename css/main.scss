@@ -63,21 +63,48 @@ nav {
   background-size: cover;
   background-color: #2C3531;
   min-height: 692px;
+    button {
+      font-size: 20px;
+      text-decoration: none;
+      background-color: black;
+      color: white;
+      height: 40px;
+      border-radius: 10px;
+      position: relative;
+      top: 300px;
+      left: 133.5px;
+      a{
+        padding: 10px 20px;
+      }
+      a:link {
+        color: white;
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+        background-color: white;
+        text-decoration: none;
+      }
+  }
 }
 
 .container {
   color: white;
-  margin: 490px 0px auto 20px;
+  margin: 500px 0px auto 10px;
   h1 {
     font-family: Zilla Slab Highlight;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
   }
   h3 {
-    padding: 25px 25px 0px 40px;
+    padding: 25px 25px 0px 20px;
     text-align: left;
     font-family: Kiwi Maru;
-    font-size: 18px;
+    font-size: 20px;
+    span {
+      color: #EE6A23;
+      font-weight: bold;
+    }
   }
 }
 
